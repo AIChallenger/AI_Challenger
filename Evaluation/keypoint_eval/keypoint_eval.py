@@ -146,7 +146,7 @@ def keypoint_eval(predictions, annotations, return_dict):
                               predict=predictions['annos'][image_id]['keypoint_annos'], \
                               delta=annotations['delta'])
             # view pairs with max OKSs as match ones, add to oks_all
-            oks_all = np.concatenate((oks_all, np.max(oks, axis=0)), axis=0)
+            oks_all = np.concatenate((oks_all, np.max(oks, axis=1)), axis=0)
             # accumulate total num by max(gtN,pN)
             oks_num += np.max(oks.shape)
         else:
