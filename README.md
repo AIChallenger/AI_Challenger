@@ -11,7 +11,7 @@ We also provide baseline model for some of the competition tracks. Please keep i
 
 Good luck!
 
-## AIC Dataset Download
+## AIC（AI Challenger） Dataset Download
 
 # Note:
 数据集是AI Challenger第一届比赛的三个赛道的数据集：Caption，keypoints， Scene
